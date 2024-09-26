@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Login from './Login';
 
 const Counter = () => {
     const [number,setNumber]=useState(19);
@@ -20,7 +21,9 @@ const Counter = () => {
                 <button className='bg-green-300 border-2 p-1' onClick={Decrement}>Decrement</button>
             </div>
             </div>
+            <Login/>
         </div>
+
     )
 }
 
